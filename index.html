@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather ninja</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="weather">
+        <main>
+        <form class="form-weather">
+            <h1>Weather Ninja</h1>
+             <small>Enter a location for weather information</small>
+             <input type="text"id='input-location' name='city'>
+        </form>
+        <div class="imgInfoBox">
+            <div class="image">
+                 <img src="https://via.placeholder.com/400x300" alt="">
+        </div>
+        <div class="info">
+        <div class="weather-icon"></div>
+         <p>city name</p>
+          <small>weather condition</small>
+        <div class="temp">
+           <p>temp<span class="sapn-temp">15.4</span><span class="span-celcius">&#8451;</span></p></div>
+           <!--&deg;C this onther way to display deg C-->
+       </div>
+        </div>
+
+        </main>
+    </section>
+    <script src="./scripts/forecast.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
